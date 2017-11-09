@@ -14,8 +14,8 @@ for row in worksheet.iter_rows(min_row=2,max_row=103, min_col=3, max_col=3):  ##
         website.append(cell.value)
 
 #browser=webdriver.Chrome(r'C:\Users\abhis\Pycharmojects\webdriver\chromedriver_win32\chromedriver')
-USEREMAIL=''
-userpassword=''
+USEREMAIL=''    #provide email which was used for registration
+userpassword='' #provide password which was used for registration
 browser=webdriver.PhantomJS(r'C:\Users\abhis\PycharmProjects\webdriver\phantomjs-2.1.1-windows\phantomjs-2.1.1-windows\bin\phantomjs')
 class UbuntuForum(object):
     def __init__(self):
